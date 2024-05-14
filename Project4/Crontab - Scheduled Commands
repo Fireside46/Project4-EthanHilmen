@@ -25,8 +25,8 @@
 
 
 0 * * * * /home/hacker/Project4/sniff_sched.sh
-
+#top of the hour it will run the scheduled script
 10 * * * * /home/hacker/Project4/email.sh
-
+#10 minutes after the top of the hour it will email the findings
 5 * * * * /home/hacker/Project4/echo.sh
-
+#5 minutes after the top of the hour it will send message to console
